@@ -1,4 +1,0 @@
-for file in `ls -d */`; do 
-#echo $file;
-echo "cp -r "$file"target/site /tmp/site/aetion-"$file;
-done
